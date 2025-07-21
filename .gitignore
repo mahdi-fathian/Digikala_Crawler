@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Output files
+*.db
+*.csv
+*.json
+*.har
+*.xlsx
+
+# Ignore large raw data
+full_product_xhr_response.json
+extracted_product_xhrs.json
+digikala_network.har
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/ 
